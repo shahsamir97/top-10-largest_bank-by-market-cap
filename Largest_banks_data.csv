@@ -1,11 +1,11 @@
-Name,MC_USD_Billion,MC_GBP_Billion,MC_INR_Billion,MC_EUR_Billion
-JPMorgan Chase,852.89,682.31,70747.23,793.19
-China Construction Bank,414.07,331.26,34347.11,385.09
-Bank of America,395.81,316.65,32832.44,368.1
-Agricultural Bank of China,352.05,281.64,29202.55,327.41
-Morgan Stanley,339.79,271.83,28185.58,316.0
-Industrial and Commercial Bank of China,328.41,262.73,27241.61,305.42
-HSBC,315.93,252.74,26206.39,293.81
-Goldman Sachs,312.58,250.06,25928.51,290.7
-Bank of China,299.81,239.85,24869.24,278.82
-Royal Bank of Canada,278.33,222.66,23087.47,258.85
+Name,MC_USD_Billion,MC_GBP_Billion,MC_EUR_Billion,MC_INR_Billion
+JPMorgan Chase,852.89,682.31,793.19,70747.23
+China Construction Bank,414.07,331.26,385.09,34347.11
+Bank of America,395.81,316.65,368.1,32832.44
+Agricultural Bank of China,352.05,281.64,327.41,29202.55
+Morgan Stanley,339.79,271.83,316.0,28185.58
+Industrial and Commercial Bank of China,328.41,262.73,305.42,27241.61
+HSBC,315.93,252.74,293.81,26206.39
+Goldman Sachs,312.58,250.06,290.7,25928.51
+Bank of China,299.81,239.85,278.82,24869.24
+Royal Bank of Canada,278.33,222.66,258.85,23087.47
