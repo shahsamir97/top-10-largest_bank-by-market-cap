@@ -17,3 +17,49 @@
 2026-Oct-06-15:45:58 : Data loaded to SQLite table: Largest_banks
 2026-Oct-06-15:45:58 : ETL process completed
 2026-Oct-06-15:45:58 : running query
+2026-Oct-06-16:00:27 : Starting ETL process
+2026-Oct-06-16:00:27 : Extraction started
+2026-Oct-06-16:00:28 : Extraction completed
+2026-Oct-06-16:00:28 : Transformation started
+2026-Oct-06-16:00:28 : Transformation completed
+2026-Oct-06-16:00:28 : Loading data to CSV and SQLite
+2026-Oct-06-16:00:28 : Data loaded to CSV: Largest_banks_data.csv
+2026-Oct-06-16:00:28 : Data loaded to SQLite table: Largest_banks
+2026-Oct-06-16:00:28 : ETL process completed
+2026-Oct-06-16:00:28 : running query
+2026-Oct-06-16:07:44 : Starting ETL process
+2026-Oct-06-16:07:44 : Extraction started
+2026-Oct-06-16:07:44 : Extraction completed
+2026-Oct-06-16:07:44 : Transformation started
+2026-Oct-06-16:07:44 : Transformation completed
+2026-Oct-06-16:07:44 : Loading data to CSV and SQLite
+2026-Oct-06-16:07:44 : Data loaded to CSV: Largest_banks_data.csv
+2026-Oct-06-16:07:44 : Data loaded to SQLite table: Largest_banks
+2026-Oct-06-16:07:44 : ETL process completed
+2026-Oct-06-16:07:44 : running query
+2026-Oct-06-16:33:28 : Preliminaries complete. Initiating ETL process
+2026-Oct-06-16:33:28 : Data extraction complete. Initiating Transformation process
+2026-Oct-06-16:34:45 : Preliminaries complete. Initiating ETL process
+2026-Oct-06-16:34:46 : Data extraction complete. Initiating Transformation process
+2026-Oct-06-16:36:27 : Preliminaries complete. Initiating ETL process
+2026-Oct-06-16:36:28 : Data extraction complete. Initiating Transformation process
+2026-Oct-06-23:09:36 : Preliminaries complete. Initiating ETL process
+2026-Oct-06-23:09:36 : Data extraction complete. Initiating Transformation process
+2026-Oct-06-23:09:55 : Preliminaries complete. Initiating ETL process
+2026-Oct-06-23:09:55 : Data extraction complete. Initiating Transformation process
+2026-Oct-06-23:14:38 : Preliminaries complete. Initiating ETL process
+2026-Oct-06-23:14:38 : Data extraction complete. Initiating Transformation process
+2026-Oct-06-23:16:22 : Preliminaries complete. Initiating ETL process
+2026-Oct-06-23:16:22 : Data extraction complete. Initiating Transformation process
+2026-Oct-06-23:16:22 : Data transformation complete. Initiating Loading process
+2026-Oct-06-23:16:22 : Data saved to CSV file
+2026-Oct-06-23:16:22 : SQL Connection initiated
+2026-Oct-06-23:16:22 : Data loaded to Database as a table, Executing queries
+2026-Oct-06-23:17:23 : Preliminaries complete. Initiating ETL process
+2026-Oct-06-23:17:23 : Data extraction complete. Initiating Transformation process
+2026-Oct-06-23:17:23 : Data transformation complete. Initiating Loading process
+2026-Oct-06-23:17:23 : Data saved to CSV file
+2026-Oct-06-23:17:23 : SQL Connection initiated
+2026-Oct-06-23:17:23 : Data loaded to Database as a table, Executing queries
+2026-Oct-06-23:17:23 : Process Complete
+2026-Oct-06-23:17:23 : Server Connection closed
