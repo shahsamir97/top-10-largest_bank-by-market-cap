@@ -34,7 +34,6 @@ def log_progress(message):
 
 
 def extract(url, table_attribs=None):
-
     if table_attribs is None:
         table_attribs = ['Name', 'MC_USD_Billion']
 
@@ -66,30 +65,24 @@ def extract(url, table_attribs=None):
                     ignore_index=True
                 )
 
-    # Clean the Market Cap column
     df['MC_USD_Billion'] = (
         df['MC_USD_Billion']
         .str.replace(',', '', regex=False)
         .str.replace('$', '', regex=False)
     )
 
-    # Convert Market Cap to numeric INSIDE extract()
     df['MC_USD_Billion'] = pd.to_numeric(
         df['MC_USD_Billion'],
         errors='coerce'
     )
 
-    # Remove rows where Market Cap could not be converted
     df = df.dropna(subset=['MC_USD_Billion'])
-
-    # Keep only top 10 banks
     df = df.head(10)
 
     return df
 
 
 def transform(df, csv_path):
-
     rates_df = pd.read_csv(csv_path)
 
     eur_rate = rates_df.loc[
@@ -131,17 +124,14 @@ def transform(df, csv_path):
 
 
 def load_to_csv(df, output_path):
-
     df.to_csv(output_path, index=False)
 
-    # Required by feedback
     log_progress(
         f"Data saved to CSV file at {output_path}"
     )
 
 
 def load_to_db(df, sql_connection, table_name):
-
     df.to_sql(
         table_name,
         sql_connection,
@@ -149,21 +139,14 @@ def load_to_db(df, sql_connection, table_name):
         index=False
     )
 
-    # Required by feedback
     log_progress(
         f"Data loaded to database table {table_name}"
     )
 
 
 def run_query(query, sql_conn):
-
     output = pd.read_sql(query, sql_conn)
     print(output)
-
-
-# -----------------------
-# ETL PROCESS
-# -----------------------
 
 log_progress(
     "Preliminaries complete. Initiating ETL process"
